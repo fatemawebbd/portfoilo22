@@ -1,0 +1,293 @@
+.banner-image{
+    height:400px;
+   width: 350px;
+}
+.banner-section{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.a{
+    font-size:x-large;
+
+}
+.b{
+    font-size: xx-large;
+}
+.btn{
+    padding: 8px,12px;
+    border: 2px solid orange;
+    color: orange;
+    font-weight: bold;
+    border-radius: 7px;
+    transition-duration: 2s;
+}
+.btn:hover{
+    background-color: orange;
+    color: white;
+}
+.marry-a{
+    color: orangered;
+
+}
+.nav-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blanchedalmond;
+
+}
+.nav-link a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition-duration: 0.7s;
+
+}
+.nav-link a:hover{
+    color: red;
+   
+}
+.nav-single{
+    margin-right: 15px;
+}
+.aboutme-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    padding: 0px 100px;
+    margin: 0px 100px;
+}
+.p{
+    width: 490px;
+    
+}
+.about-sub-section{
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+}
+.image-details img {
+    height: 30px;
+    width: 30px;
+    border: 2px solid black;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.image-details div{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.image-details{
+    display: flex;
+    justify-content: center;
+}
+.summary-ofresume{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    margin: 10px 100px;
+}
+
+.resume{
+    display: flex;
+    gap: 24px;
+
+}
+
+.edu{
+    font-weight: 700;
+    font-size: 25px;
+ color: black;
+    margin-bottom: 10px;
+
+  
+}
+
+.resume-items{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.sub-title{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+ }
+
+ .description{
+    font-size: 15px;
+    color: #757575;
+}
+.footer{
+    
+  display: flex;
+    justify-content: space-around;
+  flex-direction: column;
+    background-color: lightsalmon;
+    padding: 0px 100px;
+    margin: 0px 100px;
+}
+
+
+@media only screen and (max-width: 667px){
+    .banner-section{ display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 20px;
+        background-color: aquamarine;
+    }
+    .banner-image{
+        height:100px;
+       width: 150px;
+    }
+    .a{
+      font-size: medium;
+    
+    }
+    .b{
+       font-size: medium;
+    }
+    .nav-section{
+        display: flex;
+      justify-content: center;
+      padding: 10px;
+      margin: 10px;
+    background-color: blanchedalmond;
+    } 
+    .nav-link a{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+         color: blue;
+        font-weight: bold;
+        transition-duration: 0.5s;
+    
+    }
+    .marry-a{
+      color: lawngreen;
+      display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    }
+    .aboutme-section{
+        display: flex;
+        flex-direction: column;
+      justify-content:center;
+      text-align: center;
+      padding: 100px;
+     margin: 100px;
+        background-color:brown;
+        
+    }
+    .p{
+        width: 290px;
+   font-size: small;
+   text-align: center;
+        
+    }
+    .about-sub-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 700px;
+    }
+    .summary-ofresume{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0px;
+        margin: 10px 100px;
+    }
+    
+    .resume{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 24px;
+    
+    }
+    
+    .edu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 24px;
+        font-weight: 700;
+        font-size: 25px;
+     color: black;
+        margin-bottom: 10px;
+    
+      
+    }
+    
+    .resume-items{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .title{
+        font-weight: 700;
+        font-size: 25px;
+        color: #474747;
+        margin-bottom: 10px;
+    }
+    
+    .sub-title{
+        color: #757575;
+        font-weight: 600;
+        font-size: 20px;
+        margin-bottom: 20px;
+     }
+    
+     .description{
+        font-size: 15px;
+        color: #757575;
+    }
+    .image-details{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    @media only screen and (min-width: 668px) and (max-width: 900px)
+    {
+        .resume{
+            display: flex;
+            gap: 24px;
+        
+        }
+        
+        .edu{
+            font-weight: 700;
+            font-size: 25px;
+         color: black;
+            margin-bottom: 10px;
+        
+          
+        }
+        .image-details{
+           display: contents;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    }
+}
